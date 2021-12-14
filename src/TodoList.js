@@ -8,8 +8,9 @@ import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
 import "./TodoList.css";
 
+
 const TodoList = ({ todos, deleteTodo }) => (
-  <List className = "List">
+  <List className = "List" >
     {todos.map((todo, index) => (
       <ListItem key={index.toString()} dense button>
         <Checkbox tabIndex={-1} disableRipple />
@@ -19,6 +20,7 @@ const TodoList = ({ todos, deleteTodo }) => (
             aria-label="Delete"
             onClick={() => {
               deleteTodo(index);
+              alert("Index deleted");
             }}
           >
             <DeleteIcon />
