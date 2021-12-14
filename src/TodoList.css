@@ -1,0 +1,9 @@
+.List{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    display:flex;
+    flex-direction:column;
+    width: 30%;
+    right:-35%;
+    padding: 15px;
+}
