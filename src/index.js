@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Typography from "@material-ui/core/Typography";
-import TodoForm from "./components/ToDoForm";
-import TodoList from "./components/ToDoList";
-import useTodoState from "./components/useState/useTodoState";
+import TodoForm from "./TodoForm";
+import TodoList from "./TodoList";
+import useTodoState from "./useTodoState";
 import "./styles.css";
 
 const App = () => {
